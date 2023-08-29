@@ -44,7 +44,12 @@ const books = [
 function BookList() {
   return (
     // className is used instead of class
-    <section className="booklist"></section>
+    <section className="booklist">
+      {books.map((book) => {
+        console.log(book);
+        return <Book title={book.title} author={book.author} img={book.img} />;
+      })}
+    </section>
   );
 }
 
@@ -54,7 +59,6 @@ const Book = (props) => {
 
   // destructuring the props object to optimize our code
   const { title, author, img } = props;
-  console.log(props);
   return (
     <article className="book">
       <img src={img} alt={title} />
