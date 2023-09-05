@@ -30,11 +30,14 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
+
 .book img {
   width: 100%;
   object-fit: cover;
 }
+
 .book h2 {
   margin-top: 1rem;
   font-size: 1rem;
@@ -45,4 +48,15 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5rem;
   letter-spacing: 2px;
+}
+
+.num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1rem 0;
+  background: #c35600;
+  color: white;
 }
