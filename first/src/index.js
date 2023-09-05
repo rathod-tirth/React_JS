@@ -1,10 +1,6 @@
-// refer readme file for more info
-
-// importing react and reactDOM files is neccecary for react
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// importing CSS file requires to write the extensions and it imports the whole file
 import "./index.css";
 
 const books = [
@@ -46,25 +42,19 @@ const books = [
   },
 ];
 
-// creating an function component
 function BookList() {
   return (
-    // className is used instead of class
     <section className="booklist">
-      {/* using the map funciton to iterate the component */}
       {books.map((book) => {
-        console.log(book);
+        // console.log(book);
         return <Book {...book} key={book.id} />;
       })}
     </section>
   );
 }
 
-// creating a arrow function component
 const Book = (props) => {
-  // props is an object passed in an component, which is useful to make our code dynamic
 
-  // destructuring the props object to optimize our code
   const { title, author, img } = props;
 
   const displayTitle = () => {
@@ -80,9 +70,6 @@ const Book = (props) => {
   );
 };
 
-// whole site is render by this one root element
-// using the ReactDOM module which we imported to create the root element
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// rendering the root element with the desired component
 root.render(<BookList />);
