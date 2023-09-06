@@ -1,9 +1,12 @@
 function App() {
+
   return (
-    <div className='container'>
-      <h2>Advanced React</h2>
-    </div>
-  );
+    <>
+      <div className="container">
+        <h1>Hello</h1>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
