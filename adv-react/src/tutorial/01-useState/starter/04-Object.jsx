@@ -19,6 +19,7 @@ const Object = () => {
             hobby: "Watching Movies"
          }
       );
+      // setData({ ...data, name: "John" });
    };
 
    return (
