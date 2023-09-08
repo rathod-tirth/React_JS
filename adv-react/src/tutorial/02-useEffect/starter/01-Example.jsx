@@ -5,7 +5,8 @@ const CodeExample = () => {
 
   const loop = () => {
     console.log("Hello");
-    setValue(value + 1);
+    // triggers infinit loop
+    // setValue(value + 1);
   };
 
   loop()
@@ -13,7 +14,7 @@ const CodeExample = () => {
   return (
     <div>
       <h1>value : {value}</h1>
-      <button className='btn' onClick={() => loop()}>
+      <button className='btn' onClick={() => setValue(value + 1)}>
         click me
       </button>
     </div>
