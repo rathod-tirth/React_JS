@@ -3,7 +3,8 @@
 // import Starter from "./tutorial/01-useState/03-Array"
 // import Starter from "./tutorial/01-useState/04-Object"
 // import Starter from "./tutorial/01-useState/05-Gotcha"
-import Starter from "./tutorial/02-useEffect/starter/01-Example"
+// import Starter from "./tutorial/02-useEffect/starter/01-Example"
+import Starter from "./tutorial/02-useEffect/starter/02-Basics"
 
 function App() {
 

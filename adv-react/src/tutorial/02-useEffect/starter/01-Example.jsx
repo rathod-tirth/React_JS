@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const CodeExample = () => {
+const Example = () => {
   const [value, setValue] = useState(0);
 
   const loop = () => {
@@ -20,4 +20,4 @@ const CodeExample = () => {
     </div>
   );
 };
-export default CodeExample;
+export default Example;
