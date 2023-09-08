@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const UseEffectBasics = () => {
+const Basics = () => {
   const [value, setValue] = useState(0);
   const sayHello = () => {
     console.log('hello there');
@@ -17,4 +17,4 @@ const UseEffectBasics = () => {
     </div>
   );
 };
-export default UseEffectBasics;
+export default Basics;
