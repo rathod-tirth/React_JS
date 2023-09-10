@@ -22,3 +22,12 @@ const Basics = () => {
   );
 };
 export default Basics;
+
+/**
+ * useEffect is another react hooks
+ * useEffect is called every time the component renders
+ * It has two arguments:
+ *    first: a callback function
+ *    second: array dependency
+ * 
+ */

@@ -21,3 +21,10 @@ const Example = () => {
   );
 };
 export default Example;
+
+/**
+ * since useState re-renders the component on update
+ * an setState in a function which is invoked on mount will create an infinite loop
+ * 
+ * in scenario like this useEffect is used
+ */
