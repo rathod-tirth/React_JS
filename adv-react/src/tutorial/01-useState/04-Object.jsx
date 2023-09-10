@@ -8,8 +8,10 @@ const Object = () => {
          hobby: "Sleeping"
       }
    );
+   // initial state value as an object
 
    const { name, age, hobby } = data;
+   // destructuring
 
    const update = () => {
       setData(
@@ -20,7 +22,9 @@ const Object = () => {
          }
       );
       // setData({ ...data, name: "John" });
+      // use spread op if you want to update few properties
    };
+   // updating the data with set function
 
    return (
       <>

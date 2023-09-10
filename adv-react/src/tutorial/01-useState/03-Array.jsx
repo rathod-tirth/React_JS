@@ -6,7 +6,9 @@ const Array = () => {
 
   const remove = (id) => {
     let newList = people.filter((ppl) => ppl.id !== id);
+    // gives a list of array
     setPeople(newList);
+    // re-rendering the component with the new elements
   };
 
   return (
