@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const MultipleEffects = () => {
+const Multiple = () => {
   const [value, setValue] = useState(0);
   const [secondValue, setSecondValue] = useState(0);
 
@@ -24,7 +24,7 @@ const MultipleEffects = () => {
     </div>
   );
 };
-export default MultipleEffects;
+export default Multiple;
 
 /**
  * you can have multiple useEffect

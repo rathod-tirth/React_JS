@@ -7,7 +7,7 @@
 // import Starter from "./tutorial/02-useEffect/starter/01-Example"
 // import Starter from "./tutorial/02-useEffect/starter/02-Basics"
 // import Starter from "./tutorial/02-useEffect/starter/03-Multiple"
-import Starter from "./tutorial/02-useEffect/starter/04-fetch-data"
+import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
 
 function App() {
 
