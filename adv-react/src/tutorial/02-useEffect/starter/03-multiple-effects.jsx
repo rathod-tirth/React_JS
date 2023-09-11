@@ -4,13 +4,13 @@ const MultipleEffects = () => {
   const [value, setValue] = useState(0);
   const [secondValue, setSecondValue] = useState(0);
 
-  // useEffect(() => {
-  //   console.log('hello from first useEffect');
-  // }, []);
+  useEffect(() => {
+    console.log('hello from first useEffect');
+  }, [value]);
 
-  // useEffect(() => {
-  //   console.log('hello from second useEffect');
-  // }, []);
+  useEffect(() => {
+    console.log('hello from second useEffect');
+  }, [secondValue]);
   return (
     <div>
       <h1>value : {value}</h1>
@@ -25,3 +25,8 @@ const MultipleEffects = () => {
   );
 };
 export default MultipleEffects;
+
+/**
+ * you can have multiple useEffect
+ * you can pass state in useEffect and every time state updates the useEffect invokes
+ */
