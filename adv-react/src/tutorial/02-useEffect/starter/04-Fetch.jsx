@@ -45,4 +45,5 @@ export default FetchData;
  * here useEffect is used to fetch the data
  * with useState to access the data
  * and then using map to visualize the data
+ * 
  */
