@@ -13,7 +13,6 @@ const Basics = () => {
    if (isLoad) {
       return <h3>Loading...</h3>
    }
-
    return <h3>Hello There</h3>
 };
 export default Basics;
