@@ -12,7 +12,8 @@
 // import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
 
 // conditional rendering
-import Starter from "./tutorial/03-conditional-rendering/starter/01-Basics";
+// import Starter from "./tutorial/03-conditional-rendering/starter/01-Basics";
+import Starter from "./tutorial/03-conditional-rendering/starter/02-Fetch-data";
 
 function App() {
 
