@@ -9,7 +9,10 @@
 // import Starter from "./tutorial/02-useEffect/starter/01-Example"
 // import Starter from "./tutorial/02-useEffect/starter/02-Basics"
 // import Starter from "./tutorial/02-useEffect/starter/03-Multiple"
-import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
+// import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
+
+// conditional rendering
+import Starter from "./tutorial/03-conditional-rendering/starter/01-Basics";
 
 function App() {
 
