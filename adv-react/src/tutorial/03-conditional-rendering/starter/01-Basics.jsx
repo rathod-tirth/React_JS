@@ -20,4 +20,5 @@ export default Basics;
 /**
  * you can have multiple retuns in react
  * here we use re-rendering functionality of useState to return a different element after setTimeout
+ * naming convention for boolean value in state starts with "is"
  */
