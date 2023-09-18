@@ -13,7 +13,8 @@
 
 // conditional rendering
 // import Starter from "./tutorial/03-conditional-rendering/starter/01-Basics";
-import Starter from "./tutorial/03-conditional-rendering/starter/02-Fetch-data";
+// import Starter from "./tutorial/03-conditional-rendering/starter/02-Fetch-data";
+import Starter from "./tutorial/03-conditional-rendering/starter/03-Short-circuit";
 
 function App() {
 
