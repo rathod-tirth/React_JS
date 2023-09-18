@@ -51,6 +51,4 @@ export default FetchData;
  *  1. Loading
  *  2. Error
  *  3. Success
- * 
- * 
  */
