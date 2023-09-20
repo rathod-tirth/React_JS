@@ -44,3 +44,8 @@ const ExComponent = ({ name }) => {
 };
 
 export default Examples;
+
+/**
+ * usage of short circuit rendering and ternery operator
+ * you can pass string, variable, element, component, etc. in this conditions
+ */
