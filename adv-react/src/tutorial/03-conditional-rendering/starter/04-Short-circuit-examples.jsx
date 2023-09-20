@@ -18,6 +18,7 @@ const Examples = () => {
         </div>
       )}
       {user && <ExComponent name={user.name} />}
+
       <h2>Ternary Operators</h2>
       <button className='btn'>{isEditing ? "edit" : "add"}</button>
       {user ? (
