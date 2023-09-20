@@ -16,7 +16,8 @@
 // import Starter from "./tutorial/03-conditional-rendering/starter/02-Fetch-data";
 // import Starter from "./tutorial/03-conditional-rendering/starter/03-Short-circuit";
 // import Starter from './tutorial/03-conditional-rendering/starter/04-Short-circuit-examples';
-import Starter from './tutorial/03-conditional-rendering/starter/05-toggle-challenge';
+// import Starter from './tutorial/03-conditional-rendering/starter/05-Toggle-challenge';
+import Starter from './tutorial/03-conditional-rendering/starter/06-User-challenge';
 
 function App() {
 
