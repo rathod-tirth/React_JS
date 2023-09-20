@@ -12,12 +12,12 @@
 // import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
 
 // conditional rendering
-// import Starter from "./tutorial/03-conditional-rendering/starter/01-Basics";
-// import Starter from "./tutorial/03-conditional-rendering/starter/02-Fetch-data";
-// import Starter from "./tutorial/03-conditional-rendering/starter/03-Short-circuit";
-// import Starter from './tutorial/03-conditional-rendering/starter/04-Short-circuit-examples';
-// import Starter from './tutorial/03-conditional-rendering/starter/05-Toggle-challenge';
-import Starter from './tutorial/03-conditional-rendering/starter/06-User-challenge';
+// import Starter from "./tutorial/03-conditional-rendering/01-Basics";
+// import Starter from "./tutorial/03-conditional-rendering/02-Fetch-data";
+// import Starter from "./tutorial/03-conditional-rendering/03-Short-circuit";
+// import Starter from './tutorial/03-conditional-rendering/04-Short-circuit-examples';
+// import Starter from './tutorial/03-conditional-rendering/05-Toggle-challenge';
+import Starter from './tutorial/03-conditional-rendering/06-User-challenge';
 
 function App() {
 
