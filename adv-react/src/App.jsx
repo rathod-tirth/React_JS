@@ -6,11 +6,11 @@
 // import Starter from "./tutorial/01-useState/05-Gotcha"
 
 // useEffect
-// import Starter from "./tutorial/02-useEffect/starter/01-Example"
-// import Starter from "./tutorial/02-useEffect/starter/02-Basics"
-// import Starter from "./tutorial/02-useEffect/starter/03-Multiple"
-// import Starter from "./tutorial/02-useEffect/starter/04-Fetch"
-import Starter from "./tutorial/02-useEffect/starter/05-Cleanup-function"
+// import Starter from "./tutorial/02-useEffect/01-Example"
+// import Starter from "./tutorial/02-useEffect/02-Basics"
+// import Starter from "./tutorial/02-useEffect/03-Multiple"
+// import Starter from "./tutorial/02-useEffect/04-Fetch"
+import Starter from "./tutorial/02-useEffect/05-Cleanup-function"
 
 // conditional rendering
 // import Starter from "./tutorial/03-conditional-rendering/01-Basics";
