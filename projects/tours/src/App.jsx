@@ -11,7 +11,13 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [tours, setTours] = useState(null);
 
+  const removeTour = (id) => {
+    const newTours = tours.filter(data => data.id !== id);
+    setTours(newTours);
+  };
+
   const api = async () => {
+    setIsLoading(true);
     try {
       const res = await fetch(url);
       if (!res.ok) {
@@ -27,16 +33,19 @@ function App() {
 
   if (isLoading) {
     return (
-      <>
+      <main>
         <Loading />
-      </>
+      </main>
     );
   }
 
   return (
-    <>
-      <Tours tours={tours} />
-    </>
+    <main>
+      <Tours tours={tours} removeTour={removeTour} />
+      <div className="title">
+        <button className="btn" onClick={() => { api() }}>Refresh</button>
+      </div>
+    </main>
   )
 }
 
