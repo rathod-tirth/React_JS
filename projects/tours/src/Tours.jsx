@@ -1,20 +1,18 @@
 import Tour from "./Tour"
 
-function Tours({ tours }) {
-   const handleRemove = (id) => {
-      const newTours = tours.filter(data => data.id !== id);
-   };
+function Tours({ tours, removeTour }) {
    return (
-      <>
-         {tours.map((data) => {
-            return (
-               <div key={data.id}>
-                  <Tour tour={data} />
-                  <button className="btn">Remove</button>
-               </div>
-            );
-         })}
-      </>
+      <section>
+         <div className='title'>
+            <h2>our tours</h2>
+            <div className='title-underline'></div>
+         </div>
+         <div className="tours">
+            {tours.map((data) => {
+               return (<Tour key={data.id} {...data} removeTour={removeTour} />);
+            })}
+         </div>
+      </section>
    )
 }
 export default Tours
