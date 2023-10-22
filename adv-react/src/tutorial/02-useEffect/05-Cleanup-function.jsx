@@ -38,4 +38,7 @@ export default CleanupFunction;
  * 
  * To overcome this we add an cleanup function of in the return
  * so when the component unmounts the cleanup function gets invoked
+ * 
+ * this is a part of an Functional Component LifeCycle useEffect return is invoked when 
+ * the component unmounts, we use that and add our cleanup function inside return statement
  */
