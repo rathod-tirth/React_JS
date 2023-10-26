@@ -10,7 +10,7 @@
 // import Starter from "./tutorial/02-useEffect/02-Basics"
 // import Starter from "./tutorial/02-useEffect/03-Multiple"
 // import Starter from "./tutorial/02-useEffect/04-Fetch"
-import Starter from "./tutorial/02-useEffect/05-Cleanup-function"
+// import Starter from "./tutorial/02-useEffect/05-Cleanup-function"
 
 // conditional rendering
 // import Starter from "./tutorial/03-conditional-rendering/01-Basics";
@@ -20,12 +20,15 @@ import Starter from "./tutorial/02-useEffect/05-Cleanup-function"
 // import Starter from './tutorial/03-conditional-rendering/05-Toggle-challenge';
 // import Starter from './tutorial/03-conditional-rendering/06-User-challenge';
 
+// leverage-js
+import List from "./tutorial/05-leverage-javascript/List"
+
 function App() {
 
   return (
     <>
       <div className="container">
-        <Starter />
+        <List />
       </div>
     </>
   )
