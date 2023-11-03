@@ -31,3 +31,8 @@ const ControlledInputs = () => {
   );
 };
 export default ControlledInputs;
+
+/**
+ * To controlled input tags, there values are stored in state which could be posted to an api or use
+ * in some other manner
+ */
