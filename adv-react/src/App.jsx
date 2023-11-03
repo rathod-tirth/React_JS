@@ -21,17 +21,18 @@
 // import Starter from './tutorial/03-conditional-rendering/06-User-challenge';
 
 // leverage-js
-// import List from "./tutorial/05-leverage-javascript/List"
+// import Starter from "./tutorial/05-leverage-javascript/List"
 
 // forms
-import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs";
+// import Starter from "./tutorial/06-forms/starter/01-controlled-inputs";
+import Starter from "./tutorial/06-forms/starter/02-user-challenge";
 
 function App() {
 
   return (
     <>
       <div className="container">
-        <ControlledInputs />
+        <Starter />
       </div>
     </>
   )
