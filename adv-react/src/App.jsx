@@ -26,7 +26,8 @@
 // forms
 // import Starter from "./tutorial/06-forms/starter/01-controlled-inputs";
 // import Starter from "./tutorial/06-forms/starter/02-user-challenge";
-import Starter from "./tutorial/06-forms/starter/03-multiple-inputs";
+// import Starter from "./tutorial/06-forms/starter/03-multiple-inputs";
+import Starter from "./tutorial/06-forms/starter/04-other-inputs";
 
 function App() {
 
