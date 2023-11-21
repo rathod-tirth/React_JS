@@ -1,11 +1,27 @@
-import { useState } from 'react';
 
 const UncontrolledInputs = () => {
-  const [value, setValue] = useState(0);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // FormData
+    const formData = new FormData(e.currentTarget);
+
+    // get
+    const email = formData.get("email");
+    console.log(email);
+
+    // entries
+    const formEntry = [...formData.entries()];
+    console.log(formEntry);
+
+    // object
+    const newUser = Object.fromEntries(formData);
+    console.log(newUser);
+
+    e.currentTarget.reset();
   };
+
   return (
     <div>
       <form className='form' onSubmit={handleSubmit}>
@@ -24,7 +40,7 @@ const UncontrolledInputs = () => {
           </label>
           <input type='email' className='form-input' id='email' name='email' />
         </div>
-        {/* email */}
+        {/* password */}
         <div className='form-row'>
           <label htmlFor='password' className='form-label'>
             Password
