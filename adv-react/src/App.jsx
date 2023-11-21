@@ -24,11 +24,11 @@
 // import Starter from "./tutorial/05-leverage-javascript/List"
 
 // forms
-// import Starter from "./tutorial/06-forms/starter/01-controlled-inputs";
-// import Starter from "./tutorial/06-forms/starter/02-user-challenge";
-// import Starter from "./tutorial/06-forms/starter/03-multiple-inputs";
-// import Starter from "./tutorial/06-forms/starter/04-other-inputs";
-import Starter from "./tutorial/06-forms/starter/05-form-data";
+// import Starter from "./tutorial/06-forms/01-controlled-inputs";
+// import Starter from "./tutorial/06-forms/02-user-challenge";
+// import Starter from "./tutorial/06-forms/03-multiple-inputs";
+// import Starter from "./tutorial/06-forms/04-other-inputs";
+import Starter from "./tutorial/06-forms/05-form-data";
 
 function App() {
 
