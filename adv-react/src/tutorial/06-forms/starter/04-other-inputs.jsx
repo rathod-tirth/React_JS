@@ -38,3 +38,6 @@ const OtherInputs = () => {
   );
 };
 export default OtherInputs;
+
+// checkbox value is given to the checked attribute
+// and is in boolean value
