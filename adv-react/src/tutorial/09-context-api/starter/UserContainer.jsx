@@ -1,4 +1,8 @@
-function UserContainer({ user, logOut }) {
+import { useNavContext } from "./Navbar";
+
+function UserContainer() {
+   const { user, logOut } = useNavContext();
+
    return (
       <div className="user-container">
          {user ? (
