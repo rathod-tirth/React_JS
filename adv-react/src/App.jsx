@@ -35,14 +35,17 @@
 
 // custom hook
 // import Starter from "./tutorial/08-custom-hooks/starter/01-toggle";
-import Starter from "./tutorial/08-custom-hooks/starter/02-fetch-data";
+// import Starter from "./tutorial/08-custom-hooks/starter/02-fetch-data";
+
+// context api
+import Navbar from "./tutorial/09-context-api/starter/PropDrilling/Navbar"
 
 function App() {
 
   return (
     <>
-      <div className="container">
-        <Starter />
+      <div>
+        <Navbar />
       </div>
     </>
   )
