@@ -13,3 +13,7 @@ const ToggleExample = () => {
   );
 };
 export default ToggleExample;
+
+// use "use" before creating a custom hook
+// you can use other hooks inside your custom hook
+// custom hook allows reusability of same functionality over and over again
