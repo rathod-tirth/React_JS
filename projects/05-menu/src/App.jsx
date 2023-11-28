@@ -1,14 +1,21 @@
 import Title from "./Title"
 import { useState } from "react"
 import menu from "./data"
+import Menu from "./Menu";
+import Cate from "./Cate";
+const allCate = ["all", ...new Set(menu.map(data => data.category))];
 
 function App() {
   const [data, setData] = useState(menu);
 
+  const [cateData, setCateData] = useState(allCate);
+
   return (
-    <div className="container">
+    <main>
       <Title />
-    </div>
+      <Cate cateData={cateData} />
+      <Menu data={data} />
+    </main>
   )
 }
 export default App
