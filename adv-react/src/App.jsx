@@ -38,14 +38,14 @@
 // import Starter from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 
 // context api
-import Navbar from "./tutorial/09-context-api/starter/Navbar"
+// import Starter from "./tutorial/09-context-api/starter/Navbar"
 
 function App() {
 
   return (
     <>
       <div>
-        <Navbar />
+        <Starter />
       </div>
     </>
   )
