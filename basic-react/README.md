@@ -1,5 +1,49 @@
 # React Fundamentals
 
+### Installation
+
+To create a new React app, you can use a tool called Create React App (CRA), which sets up a new React project with a sensible default configuration. Here are the steps to create a React app:
+
+1. **Install Node.js and npm:**
+   Ensure that you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from the official website: [Node.js Downloads](https://nodejs.org/en/download/).
+
+2. **Open a Terminal or Command Prompt:**
+   Open a terminal or command prompt on your computer.
+
+3. **Install Create React App:**
+   Run the following command to install Create React App globally on your system:
+
+   ```bash
+   npm install -g create-react-app
+   ```
+
+4. **Create a New React App:**
+   Run the following command to create a new React app. Replace "my-react-app" with the desired name of your app:
+
+   ```bash
+   npx create-react-app my-react-app
+   ```
+
+   This command will create a new directory with the specified name and set up the basic structure of a React app inside it.
+
+5. **Navigate to the App Directory:**
+   Change into the newly created app directory:
+
+   ```bash
+   cd my-react-app
+   ```
+
+6. **Start the Development Server:**
+   Start the development server to see your app in action. Run the following command:
+
+   ```bash
+   npm start
+   ```
+
+   This will open a new browser window with your React app running. By default, it will be available at `http://localhost:3000/`.
+
+Now, you have successfully created a new React app using Create React App. You can start building your React components and features within this project structure.
+
 #### Folder Structure
 
 - node_modules
