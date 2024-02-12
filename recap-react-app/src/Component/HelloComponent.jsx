@@ -1,4 +1,5 @@
 import { useState } from "react"
+import withLogger from "./withLogger"
 
 function HelloComponent() {
 
@@ -12,4 +13,4 @@ function HelloComponent() {
       </>
    )
 }
-export default HelloComponent
+export default withLogger(HelloComponent)
