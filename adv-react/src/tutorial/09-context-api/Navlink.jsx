@@ -1,6 +1,6 @@
 import UserContainer from "./UserContainer"
 
-function Navlink({ user, logOut }) {
+function Navlink() {
    return (
       <div className="nav-container">
          <UserContainer />
