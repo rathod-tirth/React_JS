@@ -10,7 +10,8 @@ function Navbar() {
 
    const logOut = () => {
       setUser(null);
-   };
+   }
+
    return (
       <NavContext.Provider value={{ user, logOut }}>
          <nav className="navbar">
