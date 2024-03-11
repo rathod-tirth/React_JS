@@ -55,20 +55,20 @@ export default ReducerBasics;
  * useReducer is used for state management, it is an hook provided by react itself.
 
  * useReducer takes two arguments. 1. reducer function, 2. defaultState
- * defaultstate is where all the state values are stored
- * the reducer function is used to manipulate state values
+ * defaultstate is where all the state values are stored.
+ * The reducer function is used to manipulate state values.
 
  * useReducer returns two values. 1. state 2. dispatch
- * through state you can access all the state values
- * through dispatch you can invoke a action from the reducer function
- * 
- * the reducer function passed in useReducer takes has two parameter
+ * Through state you can access all the state values.
+ * Through dispatch you can invoke a action from the reducer function.
+
+ * The reducer function passed in useReducer takes has two parameter
  * 1. current state value, 2. action
- * 
- * we use dispatch function to pass the action type
- * in reducer function we check for the correct action type and
- * on based on the action type the we will update the state
- * 
- * whatever the reducer function will return will be the new state value
- * you can setup a default state or throw an error for error handling in reducer function
+
+ * We use dispatch function to pass the action type in reducer function we check for 
+  the correct action type and on based on the action type the we will update the state.
+
+ * Whatever the reducer function will return will be the new state value.
+ * You can setup a default state or throw an error for error handling in reducer function.
+
  */
