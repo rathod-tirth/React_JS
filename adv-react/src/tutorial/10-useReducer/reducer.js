@@ -1,5 +1,5 @@
 import { CLEAR_LIST, REMOVE_ITEM, RESET_LIST } from "./action"
-import { data } from "../../../data"
+import { data } from "../../data"
 
 const reducer = (state, action) => {
    if (action.type === CLEAR_LIST) {
