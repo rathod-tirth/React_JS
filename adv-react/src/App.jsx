@@ -41,7 +41,7 @@
 // import Starter from "./tutorial/09-context-api/Navbar"
 
 // useReducer
-import Starter from "./tutorial/10-useReducer/starter/01-useReducer"
+import Starter from "./tutorial/10-useReducer/01-useReducer"
 
 
 function App() {
