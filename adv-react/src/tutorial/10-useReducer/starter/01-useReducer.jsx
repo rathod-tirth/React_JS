@@ -86,7 +86,5 @@ export default ReducerBasics;
  * on based on the action type the we will update the state
  * 
  * whatever the reducer function will return will be the new state value
- * now due to that we can set up a default return statement which return the current state
- * or we can throw an error for better bug solving 
- * if there is action which is not handled in the reducer function
+ * you can setup a default state or throw an error for error handling in reducer function
  */
