@@ -20,7 +20,7 @@
    - Vite is a build tool for modern web development that aims to provide a faster and leaner development experience for React.
 
    ```bash
-   npm create vite app-name -- --template react
+   npm create vite@latest app-name -- --template --react
    cd app-name
    npm install
    npm run dev
