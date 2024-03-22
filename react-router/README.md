@@ -485,3 +485,26 @@ const ProtectedRoute = ({ children, user }) => {
 
 export default ProtectedRoute;
 ```
+
+
+
+## Note :
+
+- If you don't give path to the first route it will take the '/' as a default parameter.
+
+- To setup a index page for a nested route you can use empty path `path=""` instead of `index` prop. 
+
+- `Link to="about"` this will add the about url in the already existing url. Whereas, `Link to="/about"` this will redirect to the about url.
+
+- `Link to=""` this refers to the url of that route itself where the component is placed.
+
+```jsx
+<Route path='about' element={<About/>} />
+
+const About=()=>{
+  return <Link to="" >hello</h1>
+}
+```
+
+- In the above example the empty `to` props refers to the `about` url given in the path of the route where the 
+component About was placed.
