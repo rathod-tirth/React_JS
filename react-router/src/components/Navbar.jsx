@@ -5,8 +5,8 @@ function Navbar() {
       <>
          <nav className="navbar" >
             <NavLink to="" style={({ isActive }) => { return ({ color: isActive ? 'red' : 'gray' }) }} >Home</NavLink>
-            <NavLink to="about" className={({ isActive }) => { return isActive ? 'active' : 'link' }} >About</NavLink>
-            <NavLink to="products" className="link" >Products</NavLink>
+            <NavLink to="/about" className={({ isActive }) => { return isActive ? 'active' : 'link' }} >About</NavLink>
+            <NavLink to="/products" className="link" >Products</NavLink>
          </nav>
       </>
    )
