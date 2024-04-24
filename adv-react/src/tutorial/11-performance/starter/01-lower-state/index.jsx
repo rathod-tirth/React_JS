@@ -13,3 +13,9 @@ const LowerState = () => {
   );
 };
 export default LowerState;
+
+
+/**
+ * When the parent component re-render the child component also renders.
+ * Simple solution would be to spilt your code in components.
+ */
