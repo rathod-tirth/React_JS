@@ -1,7 +1,9 @@
-import { useState, useTransition } from 'react';
+import { Suspense, lazy, useState, useTransition } from 'react';
+const SlowComponent = lazy(() => import('./SlowComponent'))
 const LatestReact = () => {
   const [text, setText] = useState('');
   const [items, setItems] = useState([]);
+  const [show, setShow] = useState(false)
   const [isPending, startTransition] = useTransition();
 
   const handleChange = (e) => {
@@ -40,7 +42,12 @@ const LatestReact = () => {
         >
           {items}
         </div>)}
-
+      <button className='btn' onClick={() => setShow(!show)} >Toggle</button>
+      {show &&
+        <Suspense fallback={<h4>Loading...</h4>} >
+          <SlowComponent />
+        </Suspense>
+      }
     </section>
   );
 };
@@ -49,3 +56,5 @@ export default LatestReact;
 
 // useTransition keeps the UI interactive while the data is being loaded 
 // It is very useful for searhbar
+
+// Lazy Loading
