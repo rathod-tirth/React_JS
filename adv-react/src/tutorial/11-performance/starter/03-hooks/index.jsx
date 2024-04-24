@@ -1,9 +1,14 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { data } from '../../../../data';
 import List from './List';
+import slowFunction from './SlowFunction';
+
 const LowerState = () => {
   const [people, setPeople] = useState(data);
   const [count, setCount] = useState(0);
+
+  const value = useMemo(() => slowFunction(), [])
+  console.log(value);
 
   const removePerson = useCallback((id) => {
     const newPeople = people.filter((person) => person.id !== id);
@@ -39,4 +44,7 @@ export default LowerState;
 
  * Now the function only re-render/changes when the dependency array changes, even if 
   the function itself updates the function will not change.
+
+ * useMemo memoize the function's return value, could be useful in complex calculation.
+ * Make sure to pass a your function as a callback function in the useMemo hook.
  */
