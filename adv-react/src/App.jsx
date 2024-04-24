@@ -41,8 +41,13 @@
 // import Starter from "./tutorial/09-context-api/Navbar"
 
 // useReducer
-import Starter from "./tutorial/10-useReducer/01-useReducer"
+// import Starter from "./tutorial/10-useReducer/01-useReducer"
 
+// performance
+// import Starter from './tutorial/11-performance/01-lower-state/index'
+// import Starter from './tutorial/11-performance/02-lower-state-challenge/index'
+// import Starter from './tutorial/11-performance/03-hooks/index'
+import Starter from './tutorial/11-performance/04-react-18/index'
 
 function App() {
 
