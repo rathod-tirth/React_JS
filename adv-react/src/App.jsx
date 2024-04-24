@@ -45,7 +45,8 @@
 
 // performance
 // import Starter from './tutorial/11-performance/starter/01-lower-state/index'
-import Starter from './tutorial/11-performance/starter/02-lower-state-challenge/index'
+// import Starter from './tutorial/11-performance/starter/02-lower-state-challenge/index'
+import Starter from './tutorial/11-performance/starter/03-hooks/index'
 
 function App() {
 
