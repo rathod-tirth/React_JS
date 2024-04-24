@@ -57,4 +57,8 @@ export default LatestReact;
 // useTransition keeps the UI interactive while the data is being loaded 
 // It is very useful for searhbar
 
-// Lazy Loading
+// Suspense "suspend" rendering of a component until some data has been fetched, 
+// and display a fallback UI in the meantime. 
+
+// This makes it easier to handle asynchronous data loading and provide a smooth user 
+// experience in React application.
