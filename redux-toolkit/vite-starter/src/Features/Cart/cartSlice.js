@@ -20,17 +20,12 @@ const cartSlice = createSlice({
          state.cartItems = state.cartItems.filter((item) => item.id !== payload)
       },
       increase: (state, { payload }) => {
-         const cartItems = state.cartItems.find((item) => item.id === payload)
+         const cartItems = state.cartItems.find((item) => item.id === payload.id)
          cartItems.amount += 1
       },
       decrease: (state, { payload }) => {
-         const cartItems = state.cartItems.find((item) => item.id === payload)
-         if (cartItems.amount > 0) {
-            cartItems.amount -= 1
-         }/* else {
-            cartItems.amount -= 1
-            state.cartItems = state.cartItems.filter((item) => item.id !== payload)
-         }*/
+         const cartItems = state.cartItems.find((item) => item.id === payload.id)
+         cartItems.amount -= 1
       },
       calculateTotal: (state) => {
          let total = 0

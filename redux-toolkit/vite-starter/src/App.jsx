@@ -7,9 +7,11 @@ import { useDispatch, useSelector } from "react-redux";
 function App() {
   const { cartItems } = useSelector((store) => store.cart)
   const dispatch = useDispatch()
+
   useEffect(() => {
     dispatch(calculateTotal())
   }, [cartItems])
+
   return (
     <main>
       <Navbar />
