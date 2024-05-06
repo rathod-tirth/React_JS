@@ -16,3 +16,6 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
+
+// By wrapping App with the Provider component makes the store available to the whole app
+// Provider is a bridge which connects redux with react

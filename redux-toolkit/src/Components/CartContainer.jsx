@@ -4,9 +4,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import { openModal } from '../Features/Modal/modalSlice';
 
 const CartContainer = () => {
+   // useSelector to access the store data
    const { cartItems, amount, total } = useSelector((store) => store.cart)
+   // useDispactch to invoke the reducers functions
    const dispatch = useDispatch()
 
+   // conditional rendering
    if (amount < 1) {
       return (
          <section className='cart'>
