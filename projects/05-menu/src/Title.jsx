@@ -1,9 +1,12 @@
+import React from 'react'
+
 function Title() {
    return (
-      <header className="menu">
-         <h2 className="title">Menu</h2>
-         <p className="title-underline"></p>
-      </header>
+      <div className='title'>
+         <h2>Menu</h2>
+         <div className='title-underline'></div>
+      </div>
    )
 }
+
 export default Title
