@@ -1,21 +1,33 @@
-import Title from "./Title"
-import { useState } from "react"
-import menu from "./data"
-import Menu from "./Menu";
-import Cate from "./Cate";
-const allCate = ["all", ...new Set(menu.map(data => data.category))];
+import React, { useState } from 'react'
+import Title from './Title'
+import data from './data'
+import Menu from './Menu'
+import Category from './Category'
 
 function App() {
-  const [data, setData] = useState(menu);
+  const allCate = ["all", ...new Set(data.map((item) => item.category))]
 
-  const [cateData, setCateData] = useState(allCate);
+  const [menuData, setMenuData] = useState(data)
+  const [cate, setCate] = useState(allCate)
+
+  const handleFilter = (val) => {
+    if (val === 'all') {
+      setMenuData(data)
+      return;
+    }
+    const newMenuData = data.filter((item) => item.category === val)
+    setMenuData(newMenuData)
+  }
 
   return (
     <main>
-      <Title />
-      <Cate cateData={cateData} />
-      <Menu data={data} />
+      <section className='menu'>
+        <Title />
+        <Category cate={cate} handleFilter={handleFilter} />
+        <Menu menuData={menuData} />
+      </section>
     </main>
   )
 }
+
 export default App
