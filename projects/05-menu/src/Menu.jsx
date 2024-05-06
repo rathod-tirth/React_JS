@@ -1,14 +1,14 @@
-import MenuItem from "./MenuItem"
+import React from 'react'
+import MenuItems from './MenuItem'
 
-function Menu({ data }) {
+function Menu({ menuData }) {
    return (
-      <div className="menu-item">
-         {data.map((data) => {
-            return (
-               <MenuItem key={data.id} {...data} />
-            );
+      <div className='section-center'>
+         {menuData.map((item) => {
+            return (<MenuItems key={item.id} {...item} />)
          })}
       </div>
    )
 }
+
 export default Menu

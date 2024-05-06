@@ -1,11 +1,18 @@
-function MenuItem({ title, price, img, desc }) {
+import React from 'react'
+
+function MenuItems({ title, price, img, desc }) {
    return (
-      <div className="item-info">
-         <img src={img} alt={title} className="img" />
-         <h5>{title}</h5>
-         <span className="item-price">{price}</span>
-         <p className="item-text">{desc}</p>
-      </div>
+      <article className='menu-item'>
+         <img src={img} alt={title} className='img' />
+         <div className='item-info'>
+            <header>
+               <h2>{title}</h2>
+               <span className='item-price'>${price}</span>
+            </header>
+            <p className='item-text'>{desc}</p>
+         </div>
+      </article>
    )
 }
-export default MenuItem
+
+export default MenuItems
